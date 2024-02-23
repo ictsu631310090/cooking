@@ -75,6 +75,10 @@ public class SoundScript : MonoBehaviour
             soundBGBar.value = soundBG.volume;
             soundEffectBar.value = soundEffect.volume;
         }
+        if (soundBG != null)
+        {
+            soundBG.volume = PlayerPrefs.GetFloat("valueSoundBG");
+        }
     }
 
     // Update is called once per frame

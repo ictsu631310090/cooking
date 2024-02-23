@@ -7380,6 +7380,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bed 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8065634627742760777, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065634627742760777, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065634627742760777, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065634627742760777, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065634627742760777, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065634627742760777, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6532815
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eda7484a67f82fd4e939bd8288834974, type: 3}
 --- !u!1 &1204104964
@@ -7741,14 +7765,13 @@ MonoBehaviour:
       \u0E1E\u0E32\u0E02\u0E36\u0E49\u0E19\u0E1C\u0E49\u0E32\u0E1B\u0E39\u0E14\u0E35\u0E01\u0E27\u0E48\u0E32"
     playImage: {fileID: 21300000, guid: d716dadc51283f248979ec8d114c9a16, type: 3}
   - text: "\u0E40\u0E14\u0E34\u0E19\u0E40\u0E02\u0E49\u0E32\u0E44\u0E1B\u0E43\u0E01\u0E25\u0E49
-      \u0E46 (W A S D) \u0E41\u0E25\u0E30\u0E04\u0E48\u0E2D\u0E22 \u0E46 \u0E22\u0E01\u0E40\u0E1A\u0E32
-      \u0E46 ( SPACEBAR)"
+      \u0E46 (W A S D) \u0E41\u0E25\u0E30\u0E22\u0E01 (SPACEBAR)"
     playImage: {fileID: 21300000, guid: d716dadc51283f248979ec8d114c9a16, type: 3}
   willTreat:
   - text: "\u0E1E\u0E32\u0E1A\u0E31\u0E19\u0E15\u0E30\u0E44\u0E1B\u0E19\u0E2D\u0E19\u0E1A\u0E19\u0E1C\u0E49\u0E32\u0E1B\u0E39\u0E0A\u0E49\u0E32
       \u0E46 \u0E04\u0E48\u0E2D\u0E22 \u0E46 ~~"
     playImage: {fileID: 21300000, guid: c632f330d60d04643a02be58489a7713, type: 3}
-  - text: "*\u0E17\u0E35\u0E19\u0E35\u0E49\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E48\u0E32\u0E22\u0E04\u0E32\u0E16\u0E32\u0E43\u0E2B\u0E49\u0E16\u0E39\u0E01*
+  - text: "\u0E17\u0E35\u0E19\u0E35\u0E49\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E48\u0E32\u0E22\u0E04\u0E32\u0E16\u0E32\u0E43\u0E2B\u0E49\u0E16\u0E39\u0E01
       (\u0E25\u0E39\u0E01\u0E28\u0E23 \u0E17\u0E31\u0E49\u0E07 4)"
     playImage: {fileID: 21300000, guid: c632f330d60d04643a02be58489a7713, type: 3}
   finishTreat:
@@ -7769,9 +7792,9 @@ MonoBehaviour:
   - text: "\u0E2B\u0E32?! \u0E44\u0E1F\u0E44\u0E2B\u0E21\u0E49\u0E01\u0E31\u0E1A\u0E42\u0E14\u0E19\u0E41\u0E17\u0E07\u0E07\u0E31\u0E49\u0E19\u0E40\u0E2B\u0E23\u0E2D?!
       \u0E44\u0E1B\u0E40\u0E08\u0E2D\u0E2D\u0E30\u0E44\u0E23\u0E21\u0E32\u0E40\u0E19\u0E35\u0E48\u0E22?!"
     playImage: {fileID: 21300000, guid: c632f330d60d04643a02be58489a7713, type: 3}
-  - text: "*\u0E15\u0E49\u0E2D\u0E07\u0E0A\u0E48\u0E27\u0E22\u0E15\u0E49\u0E19\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E44\u0E1F\u0E44\u0E2B\u0E21\u0E49\u0E01\u0E48\u0E2D\u0E19
+  - text: "\u0E15\u0E49\u0E2D\u0E07\u0E0A\u0E48\u0E27\u0E22\u0E15\u0E49\u0E19\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E44\u0E1F\u0E44\u0E2B\u0E21\u0E49\u0E01\u0E48\u0E2D\u0E19
       \u0E1A\u0E31\u0E19\u0E15\u0E30\u0E19\u0E31\u0E49\u0E19\u0E04\u0E25\u0E49\u0E32\u0E22\u0E15\u0E49\u0E19\u0E44\u0E21\u0E49
-      \u0E41\u0E25\u0E30\u0E44\u0E27\u0E15\u0E48\u0E2D\u0E44\u0E1F\u0E21\u0E32\u0E01*"
+      \u0E41\u0E25\u0E30\u0E44\u0E27\u0E15\u0E48\u0E2D\u0E44\u0E1F\u0E21\u0E32\u0E01"
     playImage: {fileID: 21300000, guid: d716dadc51283f248979ec8d114c9a16, type: 3}
   - text: "\u0E09\u0E31\u0E19\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E0A\u0E48\u0E27\u0E22\u0E1F\u0E23\u0E35\u0E19\u0E30
       \u0E41\u0E19\u0E48\u0E19\u0E2D\u0E19\u0E27\u0E48\u0E32\u0E09\u0E31\u0E19\u0E08\u0E30\u0E04\u0E34\u0E14\u0E04\u0E48\u0E32\u0E15\u0E2D\u0E1A\u0E41\u0E17\u0E19\u0E17\u0E35\u0E2B\u0E25\u0E31\u0E07"
@@ -7784,31 +7807,31 @@ MonoBehaviour:
     playImage: {fileID: 21300000, guid: 4301b3ed8dd21684685841f724cf5bf2, type: 3}
   - text: "\u0E40\u0E14\u0E34\u0E19\u0E21\u0E32\u0E16\u0E36\u0E07 \u0E01\u0E47\u0E21\u0E48\u0E2D\u0E07\u0E40\u0E17\u0E48\u0E07\u0E44\u0E1B\u0E40\u0E25\u0E22 "
     playImage: {fileID: 21300000, guid: 190df3e3df8ea5246a50a07ee6dab167, type: 3}
-  - text: "*\u0E08\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E44\u0E27\u0E49\u0E41\u0E1A\u0E1A\u0E19\u0E35\u0E49\u0E01\u0E47\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49*"
+  - text: "\u0E08\u0E30\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E44\u0E27\u0E49\u0E41\u0E1A\u0E1A\u0E19\u0E35\u0E49\u0E01\u0E47\u0E44\u0E21\u0E48\u0E44\u0E14"
     playImage: {fileID: 21300000, guid: d716dadc51283f248979ec8d114c9a16, type: 3}
-  - text: "\u0E04\u0E34\u0E14\u0E2D\u0E2D\u0E01\u0E41\u0E25\u0E49\u0E27!! *\u0E1A\u0E31\u0E19\u0E15\u0E30
-      \u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E37\u0E0A\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E2D\u0E32\u0E44\u0E1B\u0E17\u0E33\u0E22\u0E32\u0E44\u0E14\u0E49*"
+  - text: "\u0E04\u0E34\u0E14\u0E2D\u0E2D\u0E01\u0E41\u0E25\u0E49\u0E27!! \u0E1A\u0E31\u0E19\u0E15\u0E30
+      \u0E40\u0E1B\u0E47\u0E19\u0E1E\u0E37\u0E0A\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E2D\u0E32\u0E44\u0E1B\u0E17\u0E33\u0E22\u0E32\u0E44\u0E14\u0E49"
     playImage: {fileID: 21300000, guid: 296bb8e9dfbadbf4b8a8882618239b10, type: 3}
-  - text: "*\u0E16\u0E49\u0E32\u0E40\u0E2D\u0E32\u0E44\u0E1B\u0E15\u0E49\u0E21\u0E15\u0E2D\u0E19\u0E2A\u0E14\u0E43\u0E2B\u0E21\u0E48\u0E25\u0E30\u0E01\u0E47
-      \u0E08\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E22\u0E32\u0E23\u0E31\u0E01\u0E29\u0E32\u0E17\u0E35\u0E48\u0E14\u0E35\u0E21\u0E32\u0E01*"
+  - text: "\u0E16\u0E49\u0E32\u0E40\u0E2D\u0E32\u0E44\u0E1B\u0E15\u0E49\u0E21\u0E15\u0E2D\u0E19\u0E2A\u0E14\u0E43\u0E2B\u0E21\u0E48\u0E25\u0E30\u0E01\u0E47
+      \u0E08\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E22\u0E32\u0E23\u0E31\u0E01\u0E29\u0E32\u0E17\u0E35\u0E48\u0E14\u0E35\u0E21\u0E32\u0E01"
     playImage: {fileID: 21300000, guid: 306d9d65f685f6c4d80d762a46d8f52c, type: 3}
   - text: "\u0E2B\u0E27\u0E31\u0E07\u0E27\u0E48\u0E32\u0E08\u0E30\u0E44\u0E21\u0E48\u0E1C\u0E34\u0E14\u0E08\u0E23\u0E23\u0E22\u0E32\u0E1A\u0E23\u0E23\u0E13\u0E02\u0E2D\u0E07\u0E41\u0E1E\u0E17\u0E22\u0E4C\u0E19\u0E30"
     playImage: {fileID: 21300000, guid: fdf6d62ed564553428631b9589f8fcd4, type: 3}
-  - text: "*\u0E15\u0E49\u0E2D\u0E07 \u0E2D\u0E38\u0E49\u0E21 ( SPACEBAR) \u0E41\u0E25\u0E30
+  - text: "\u0E15\u0E49\u0E2D\u0E07 \u0E2D\u0E38\u0E49\u0E21 (SPACEBAR) \u0E41\u0E25\u0E30
       \u0E27\u0E32\u0E07\u0E21\u0E31\u0E19\u0E25\u0E07\u0E43\u0E19\u0E2B\u0E21\u0E49\u0E2D
-      (SPACEBAR)*"
+      (SPACEBAR)"
     playImage: {fileID: 21300000, guid: cf5ddb911bb546849a540e3bb6aee707, type: 3}
   useMedicine2:
-  - text: "\u0E08\u0E30\u0E44\u0E21\u0E48\u0E44\u0E2B\u0E27-\u0E41\u0E25\u0E49\u0E27-..."
+  - text: "\u0E08\u0E30\u0E44\u0E21\u0E48\u0E44\u0E2B\u0E27... \u0E41\u0E25\u0E49\u0E27..."
     playImage: {fileID: 21300000, guid: a14a67c0412bbb041a6de31852594580, type: 3}
   - text: "\u0E2B\u0E32?! \u0E15\u0E31\u0E27\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E07\u0E21\u0E32\u0E40\u0E0A\u0E35\u0E22\u0E27
       \u0E1A\u0E31\u0E19\u0E15\u0E30\u0E22\u0E34\u0E48\u0E07\u0E1A\u0E32\u0E14\u0E40\u0E08\u0E47\u0E1A\u0E2A\u0E35\u0E01\u0E47\u0E08\u0E30\u0E22\u0E34\u0E48\u0E07\u0E41\u0E1B\u0E25\u0E01\u0E2A\u0E34\u0E19\u0E30"
     playImage: {fileID: 21300000, guid: c632f330d60d04643a02be58489a7713, type: 3}
-  - text: "*\u0E1E\u0E2D\u0E14\u0E35\u0E40\u0E25\u0E22 \u0E07\u0E31\u0E49\u0E19\u0E40\u0E2D\u0E32\u0E22\u0E32\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E21\u0E31\u0E19\u0E01\u0E34\u0E19\u0E40\u0E25\u0E22\u0E14\u0E35\u0E01\u0E27\u0E48\u0E32*"
+  - text: "\u0E1E\u0E2D\u0E14\u0E35\u0E40\u0E25\u0E22 \u0E07\u0E31\u0E49\u0E19\u0E40\u0E2D\u0E32\u0E22\u0E32\u0E19\u0E35\u0E49\u0E43\u0E2B\u0E49\u0E21\u0E31\u0E19\u0E01\u0E34\u0E19\u0E40\u0E25\u0E22\u0E14\u0E35\u0E01\u0E27\u0E48\u0E32"
     playImage: {fileID: 21300000, guid: c632f330d60d04643a02be58489a7713, type: 3}
-  - text: "*\u0E2B\u0E22\u0E34\u0E1A\u0E22\u0E32\u0E08\u0E32\u0E01\u0E21\u0E37\u0E2D
+  - text: "\u0E2B\u0E22\u0E34\u0E1A\u0E22\u0E32\u0E08\u0E32\u0E01\u0E21\u0E37\u0E2D
       (SPACEBAR) \u0E41\u0E25\u0E30\u0E43\u0E2B\u0E49\u0E40\u0E08\u0E49\u0E32\u0E1A\u0E31\u0E19\u0E15\u0E30\u0E01\u0E34\u0E19
-      (SPACEBAR)*"
+      (SPACEBAR)"
     playImage: {fileID: 21300000, guid: c632f330d60d04643a02be58489a7713, type: 3}
   done:
   - text: "\u0E27\u0E49\u0E32\u0E27\u0E27!! \u0E41\u0E1C\u0E25\u0E2A\u0E21\u0E32\u0E19\u0E15\u0E31\u0E27\u0E44\u0E27\u0E2A\u0E38\u0E14
@@ -10193,8 +10216,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 845.82886, y: 180.03574}
-  m_SizeDelta: {x: 919.2055, y: 169.3106}
+  m_AnchoredPosition: {x: 839.85834, y: 233}
+  m_SizeDelta: {x: 982.9222, y: 267.0097}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590437698
 MonoBehaviour:
@@ -12116,8 +12139,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00064087, y: -6.1479}
-  m_SizeDelta: {x: 919.21, y: 181.61}
+  m_AnchoredPosition: {x: 22.028, y: 0.0005683899}
+  m_SizeDelta: {x: 938.87, y: 267.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880853905
 MonoBehaviour:
@@ -12139,8 +12162,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0E23\u0E39\u0E49\u0E2A\u0E36\u0E01\u0E27\u0E48\u0E32\u0E15\u0E31\u0E27\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E0A\u0E19\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E01\u0E35\u0E49
-    \u0E08\u0E30\u0E0A\u0E37\u0E48\u0E2D\"\u0E1A\u0E31\u0E19\u0E15\u0E30\"\u0E2A\u0E34\u0E19\u0E30"
+  m_text: "\u0E2B\u0E31\u0E27\u0E44\u0E0A\u0E40\u0E17\u0E49\u0E32\u0E19\u0E31\u0E48\u0E19
+    !! \u0E1A\u0E31\u0E19\u0E15\u0E30 \u0E40\u0E1C\u0E48\u0E32\u0E2A\u0E38\u0E14\u0E2B\u0E32\u0E22\u0E32\u0E01\u0E19\u0E35\u0E48"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7db9514d99571a242bc776f8dee3474e, type: 2}
   m_sharedMaterial: {fileID: 5632221483580365750, guid: 7db9514d99571a242bc776f8dee3474e, type: 2}

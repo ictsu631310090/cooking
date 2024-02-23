@@ -40,6 +40,14 @@ public class ButtomInMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void GoToDayTwoButtom()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void GoToDayThreeButtom()
+    {
+        SceneManager.LoadScene(3);
+    }
     public void OpenContinueUI()
     {
         continueUI.SetActive(true);
@@ -52,19 +60,24 @@ public class ButtomInMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    private void Start()
+    private void InputCode()
     {
-        Display.displays[0].Activate(0, 0, 0);
-        Time.timeScale = 1;
-        Debug.Log(PlayerPrefs.GetInt("Day"));
-        if (playUI != null)
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            playUI.SetActive(false);
+            if (Input.GetKey(KeyCode.U))
+            {
+                PlayerPrefs.SetInt("Day", 3);
+                CheckDay();
+            }
         }
-        foreach (var item in dayButtom)
+        else if (Input.GetKey(KeyCode.Backspace))
         {
-            item.SetActive(false);
+            PlayerPrefs.SetInt("Day", 0);
+            CheckDay();
         }
+    }
+    private void CheckDay()
+    {
         if (buttomContinue != null)
         {
             buttomContinue.SetActive(false);
@@ -73,15 +86,34 @@ public class ButtomInMenu : MonoBehaviour
             {
                 buttomContinue.SetActive(true);
 
-                for (int i = 0; i < PlayerPrefs.GetInt("Day") ; i++)
+                for (int i = 0; i < PlayerPrefs.GetInt("Day"); i++)
                 {
                     dayButtom[i].SetActive(true);
                 }
             }
         }
+    }
+    private void Start()
+    {
+        Display.displays[0].Activate(0, 0, 0);
+        Time.timeScale = 1;
+        if (playUI != null)
+        {
+            playUI.SetActive(false);
+        }
+        foreach (var item in dayButtom)
+        {
+            item.SetActive(false);
+        }
+        CheckDay();
         if (continueUI != null)
         {
             continueUI.SetActive(false);
         }
+    }
+    private void Update()
+    {
+        InputCode();
+        Debug.Log(PlayerPrefs.GetInt("Day"));
     }
 }

@@ -768,7 +768,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playUI: {fileID: 0}
-  buttomPlay: {fileID: 0}
   buttomContinue: {fileID: 0}
   continueUI: {fileID: 0}
   dayButtom: []
@@ -799,7 +798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67750d4c21ceeb541bed3a4e3d661b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundBG: {fileID: 0}
+  soundBG: {fileID: 430166288}
   soundEffect: {fileID: 0}
   soundBGBar: {fileID: 0}
   soundEffectBar: {fileID: 0}
