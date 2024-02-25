@@ -16,7 +16,8 @@ public class DoorScript : MonoBehaviour
     }
     private void MovePlayer()
     {
-        playerData.gameObject.transform.position = whatGo.position;
+        playerData.gameObject.transform.position = new Vector3(whatGo.position.x, playerData.gameObject.transform.position.y, whatGo.position.z);
+
         if (playerData != null)
         {
             if (playerData.havePatient)

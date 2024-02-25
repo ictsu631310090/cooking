@@ -49,6 +49,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ee53aba7ad9524f4d8f68348502de184, type: 2}
   - {fileID: 11400000, guid: f702f840a3d5e204c83624c0873f052f, type: 2}
   timeDelayInput: 1
+  buttonPressed: 4
   sound: {fileID: 0}
 --- !u!114 &6038100729541910646
 MonoBehaviour:
@@ -67,6 +68,4 @@ MonoBehaviour:
   soundArrowWrong: {fileID: 0}
   soundThrow: {fileID: 8300000, guid: ec55da9feba7f0842bc63e17a3e2bad2, type: 3}
   soundWalk: {fileID: 8300000, guid: e5ebc5c0aab94e848a4bfa888bbd0465, type: 3}
-  soundWin: {fileID: 8300000, guid: 11991abd9b37af54487e964996cd571f, type: 3}
-  soundLose: {fileID: 8300000, guid: 71efd8a6d3ee7c64b9431ae9304750b0, type: 3}
   soundPlayerEffect: {fileID: 0}

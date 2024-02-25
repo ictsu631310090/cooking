@@ -9883,6 +9883,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
+      propertyPath: buttonPressed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
+      propertyPath: timeDelayInput
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2520598715831065209, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
       propertyPath: m_RootOrder
       value: 3

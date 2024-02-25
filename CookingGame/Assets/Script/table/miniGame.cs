@@ -78,7 +78,7 @@ public class miniGame : MonoBehaviour
             listDelay[0].transform.position = spawnPoint[intArrow[0]].position;
         }
 
-        if (buttonPressed >= 4)
+        if (buttonPressed >= dataPotion.buttonPressed)
         {
             buttonPressed = 0;
             difficulty--;
@@ -152,7 +152,7 @@ public class miniGame : MonoBehaviour
         arrowAdd = 5;
         potion.sprite = allPotionSprite[0];
         speedArrow = 1.5f * 3 / dataPotion.timeDelayInput;//ใช้ได้เฉพาะ ระยะ 1.5 หน่วย
-        errorProtectionDistance = (1.75f / dataPotion.timeDelayInput) - (1.25f / dataPotion.timeDelayInput);
+        errorProtectionDistance = (1.65f / dataPotion.timeDelayInput) - (1.25f / dataPotion.timeDelayInput);
     }
     private void Update()
     {

@@ -7,6 +7,7 @@ public class PotionDataScript : MonoBehaviour
 {
     public CreateSicknessScript[] sicknessData;
     public float timeDelayInput;
+    public int buttonPressed;
     [HideInInspector] public SoundPlayerScript sound;
     public int FindNumOfSick(int id)
     {
