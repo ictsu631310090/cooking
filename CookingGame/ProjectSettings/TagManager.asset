@@ -9,17 +9,18 @@ TagManager:
   - FireDragon
   - ItemBox
   - SpawnPoint
+  - Army
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - camera
   - UI_Text
-  - 
-  - 
+  - Army
+  - Invisble_Wall
   - 
   - 
   - 
