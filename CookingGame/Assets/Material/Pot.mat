@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 37cd4cecf7b222840a1f9a60a1dd3dcd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1b3a2e3f148cc374d9514bd450851984, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_text:
@@ -93,7 +93,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0.6886792, g: 0.65944284, b: 0.65944284, a: 1}
+    - _OutlineColor: {r: 0.29311058, g: 0.3962264, b: 0.19624421, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &803992871675094318
 MonoBehaviour:
