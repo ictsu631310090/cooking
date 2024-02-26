@@ -69,11 +69,13 @@
     <Compile Include="Assets\Script\table\MedicineBoxScript.cs" />
     <Compile Include="Assets\Script\UI\InGame\ScoreManeger.cs" />
     <Compile Include="Assets\Script\NPC\DragonScript.cs" />
+    <Compile Include="Assets\Script\NPC\Army\ArmyScipt.cs" />
     <Compile Include="Assets\Script\table\BoxItem\ItemBoxScript.cs" />
     <Compile Include="Assets\Script\table\DoorScript.cs" />
     <Compile Include="Assets\Script\Player\InputSystem\ThrowScript.cs" />
     <Compile Include="Assets\Script\Player\InputSystem\key\PlayerInputActions.cs" />
     <Compile Include="Assets\Script\Data\PotionDataScript.cs" />
+    <Compile Include="Assets\Script\NPC\Army\ArmyCheck.cs" />
     <Compile Include="Assets\Script\UI\InGame\SoundScript.cs" />
     <Compile Include="Assets\Script\NPC\SpawnNPCTo.cs" />
     <Compile Include="Assets\Script\Player\InputSystem\PlayerMoveScript.cs" />
@@ -88,8 +90,6 @@
     <Compile Include="Assets\Script\Player\SpawnPlayer.cs" />
     <Compile Include="Assets\Script\NPC\NewSpawnNPCScript.cs" />
     <Compile Include="Assets\Script\Player\InputSystem\joy\PlayerInputActions_2.cs" />
-    <Compile Include="Assets\Script\NPC\Army\ArmyScipt.cs" />
-    <Compile Include="Assets\Script\NPC\Army\ArmyCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

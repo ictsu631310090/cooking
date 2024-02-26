@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ArmyScipt : MonoBehaviour
 {
+    [SerializeField] private float startTime;
     [SerializeField] private float timeCoolDown;
     [SerializeField] private float moveSpeed;
     [SerializeField] private float distanceArmies;
@@ -34,11 +35,18 @@ public class ArmyScipt : MonoBehaviour
     }
     private void Update()
     {
-        armyGroup.transform.position += Vector3.forward * Time.deltaTime * moveSpeed;
-        if (!point[1].haveArmy)
+        if (startTime > 0)
         {
-            amryObjInGame.Clear();
-            SetArmy();
+            startTime -= Time.deltaTime;
+        }
+        else if (startTime <= 0)
+        {
+            armyGroup.transform.position += Vector3.forward * Time.deltaTime * moveSpeed;
+            if (!point[1].haveArmy)
+            {
+                amryObjInGame.Clear();
+                SetArmy();
+            }
         }
     }
 }

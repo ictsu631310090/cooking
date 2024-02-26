@@ -47,9 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 040b1001116395f4caffdef262269146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeCoolDown: 10
+  startTime: 5
+  timeCoolDown: 15
   moveSpeed: 10
-  distanceArmies: 15
+  distanceArmies: 20
   point:
   - {fileID: 2794793827836974131}
   - {fileID: 2794793827179016756}

@@ -15,7 +15,7 @@ public class TrolleyMoveScript : MonoBehaviour
     [SerializeField] private bool po1;
     private bool spawning;
     private int randomNumToSpawn;
-    private Animator animatorTrolley;
+    [SerializeField] private Animator animatorTrolley;
 
     public Animator bantaAnimation;
     private bool yeet;
@@ -65,7 +65,6 @@ public class TrolleyMoveScript : MonoBehaviour
     {
         yeet = false;
         spawnScript = GetComponent<TrolleySpawnScript>();
-        animatorTrolley = GetComponent<Animator>();
         randomNumToSpawn = Random.Range(spawnScript.minNumOfNPC, spawnScript.maxNumOfNPC);
         ResetTrolley();
         timeCount = timeInOneRound + 7f;
