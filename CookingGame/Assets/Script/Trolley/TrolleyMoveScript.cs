@@ -22,7 +22,7 @@ public class TrolleyMoveScript : MonoBehaviour
 
     private void MoveTrolley()
     {
-        transform.position = Vector3.MoveTowards(transform.position, position2.position, moveSpeed);
+        transform.position = Vector3.MoveTowards(transform.position, position2.position, moveSpeed * (Time.deltaTime * 10));
     }
     private void ResetTrolley()
     {

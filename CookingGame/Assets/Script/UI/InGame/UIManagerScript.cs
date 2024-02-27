@@ -8,7 +8,7 @@ public class UIManagerScript : MonoBehaviour
 {
     [SerializeField] private ScoreManeger score;
     [SerializeField] private TimeUI time;
-    public static int numOfPlayer;
+    public static int numOfPlayer = 1;
     public static int dayInGame = 1;
     public static int treated;
     public static int dead;

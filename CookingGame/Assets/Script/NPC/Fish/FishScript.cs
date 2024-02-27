@@ -24,7 +24,7 @@ public class FishScript : MonoBehaviour
     {
         cooldownEat = timeEat;
         eatting = true;
-        Destroy(patient.gameObject, 2);
+        Destroy(patient.gameObject, cooldownEat);
     }
     private void Start()
     {

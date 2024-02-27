@@ -18,12 +18,12 @@ public class FishMoveScript : MonoBehaviour
     {
         if (startGo)
         {
-            transform.position = Vector3.MoveTowards(transform.position, point_2.position, moveSpeed);
+            transform.position = Vector3.MoveTowards(transform.position, point_2.position, moveSpeed * (Time.deltaTime * 10));
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else
         {
-            transform.position = Vector3.MoveTowards(transform.position, point_1.position, moveSpeed);
+            transform.position = Vector3.MoveTowards(transform.position, point_1.position, moveSpeed * (Time.deltaTime * 10));
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
 

@@ -120,6 +120,7 @@ public class PatientDataScript : MonoBehaviour
             {
                 transform.position = handPoint.transform.position;
                 transform.rotation = handPoint.transform.rotation;
+                transform.localScale = handPoint.transform.localScale;
             }
 
             modelBunda.GetComponent<Renderer>().material = materialBunda[0];
