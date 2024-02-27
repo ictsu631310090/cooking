@@ -1780,6 +1780,14 @@ PrefabInstance:
       value: Bed 3
       objectReference: {fileID: 0}
     - target: {fileID: 5081076465051926974, guid: db4fcb42ba43ca441892c27788d9d067, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081076465051926974, guid: db4fcb42ba43ca441892c27788d9d067, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081076465051926974, guid: db4fcb42ba43ca441892c27788d9d067, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
@@ -10388,6 +10396,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
+      propertyPath: buttonPressed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
+      propertyPath: timeDelayInput
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
       propertyPath: sicknessData.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -18038,14 +18054,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8482266052376219650, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8482266053644039924, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 40.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8482266053644039924, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
-      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

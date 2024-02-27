@@ -10198,11 +10198,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
       propertyPath: buttonPressed
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
       propertyPath: timeDelayInput
-      value: 1
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 2520598715831065209, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
       propertyPath: m_RootOrder
@@ -13859,6 +13859,10 @@ PrefabInstance:
       propertyPath: minNumOfNPC
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: potionData
+      value: 
+      objectReference: {fileID: 1527419108}
     - target: {fileID: 5152823709481932459, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: timeInOneRound
       value: 15

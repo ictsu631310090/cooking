@@ -9,6 +9,7 @@ public class FishScript : MonoBehaviour
     [SerializeField] private float timeEat;
     private float cooldownEat;
     private bool eatting;
+    private Animator animatorFish;
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Patient" && !eatting)
@@ -21,13 +22,13 @@ public class FishScript : MonoBehaviour
     }
     private void EatBanda()
     {
-        //animation
         cooldownEat = timeEat;
         eatting = true;
         Destroy(patient.gameObject, 2);
     }
     private void Start()
     {
+        animatorFish = GetComponent<Animator>();
         cooldownEat = 0;
         eatting = false;
     }
@@ -35,10 +36,12 @@ public class FishScript : MonoBehaviour
     {
         if (eatting)
         {
+            animatorFish.SetBool("Eatting", true);
             cooldownEat = cooldownEat - Time.deltaTime;
             if (cooldownEat <= 0)
             {
                 eatting = false;
+                animatorFish.SetBool("Eatting", false);
             }
         }
     }

@@ -8,11 +8,9 @@ public class FishMoveScript : MonoBehaviour
     public Transform point_1;
     public Transform point_2;
     private bool startGo;
-    private Animator animatorFish;
 
     private void Start()
     {
-        animatorFish = GetComponent<Animator>();
         transform.position = point_1.position;
         startGo = true;
     }
