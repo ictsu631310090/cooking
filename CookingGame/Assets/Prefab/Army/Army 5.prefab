@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4473547703672791065}
-  - component: {fileID: 7998004580894976765}
   - component: {fileID: 8097897309137810161}
   - component: {fileID: 924904386344812562}
+  - component: {fileID: 3109894331171625787}
   m_Layer: 0
   m_Name: Army 5
   m_TagString: Army
@@ -39,19 +39,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
---- !u!65 &7998004580894976765
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037062929922534628}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6, y: 3, z: 6}
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &8097897309137810161
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -82,6 +69,20 @@ CapsuleCollider:
   m_Height: 5
   m_Direction: 1
   m_Center: {x: 4.9, y: 0, z: -2.13}
+--- !u!136 &3109894331171625787
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037062929922534628}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 4
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &315666271227532517
 PrefabInstance:
   m_ObjectHideFlags: 0
