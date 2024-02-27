@@ -50,7 +50,7 @@ MonoBehaviour:
   startTime: 7.5
   timeCoolDown: 15
   moveSpeed: 10
-  distanceArmies: 15
+  distanceArmies: 17
   point:
   - {fileID: 2794793827836974131}
   - {fileID: 2794793827179016756}
