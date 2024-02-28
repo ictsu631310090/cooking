@@ -1779,6 +1779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bed 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2937681055205230708, guid: db4fcb42ba43ca441892c27788d9d067, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5081076465051926974, guid: db4fcb42ba43ca441892c27788d9d067, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1
@@ -3458,6 +3462,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: startTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: timeCoolDown
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: distanceArmies
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: amryObj.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: amryObj.Array.data[2]
+      value: 
+      objectReference: {fileID: 1037062929922534628, guid: d3079c55444e5cc4caff37c7dd2d898e, type: 3}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: amryObj.Array.data[4]
+      value: 
+      objectReference: {fileID: 1037062929922534628, guid: 54b688de383df0f4f8f96a01b7c98478, type: 3}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: rangeRandom.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: rangeRandom.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2794793826531866800, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
       propertyPath: m_Name
       value: AllArmy
@@ -7479,6 +7519,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: startTime
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: timeCoolDown
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: rangeRandom.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866798, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: rangeRandom.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2794793826531866800, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
       propertyPath: m_Name
       value: AllArmy (1)
@@ -18008,10 +18068,22 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 742102643877699800, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: timeInOneRound
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: potionData
       value: 
       objectReference: {fileID: 1527419108}
+    - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: maxNumOfNPC
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: minNumOfNPC
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8482266052376219649, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: m_Name
       value: AllTrolley
@@ -18030,7 +18102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8482266052376219650, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.83
+      value: -7.91
       objectReference: {fileID: 0}
     - target: {fileID: 8482266052376219650, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18067,6 +18139,18 @@ PrefabInstance:
     - target: {fileID: 8482266052793276934, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482266052885836132, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482266052885836132, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482266052885836132, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
@@ -18402,8 +18486,8 @@ MonoBehaviour:
   scoreStart: 50
   scoreSlider: {fileID: 630124021}
   gameoverText: {fileID: 708463019}
-  timeDownScore: 5
-  scoreDown: 5
+  timeDownScore: 1000
+  scoreDown: 0
   timeS: {fileID: 735341696}
 --- !u!114 &2117312828
 MonoBehaviour:
