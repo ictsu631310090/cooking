@@ -49,6 +49,10 @@ public class ButtomInMenu : MonoBehaviour
     {
         continueUI.SetActive(true);
     }
+    public void OpenCreditUI()
+    {
+        cerditUI.SetActive(true);
+    }
     public void CloseUI()
     {
         playUI.SetActive(false);

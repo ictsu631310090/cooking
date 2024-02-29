@@ -61,10 +61,12 @@ public class SoundScript : MonoBehaviour
     public void PlayerSoundBGCerdit()
     {
         soundBG.clip = soundCredit;
+        soundBG.Play();
     }
     public void PlayerSoundMainmenu()
     {
         soundBG.clip = musicBG;
+        soundBG.Play();
     }
     private void Start()
     {
