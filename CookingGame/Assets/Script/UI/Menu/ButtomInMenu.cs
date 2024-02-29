@@ -9,14 +9,11 @@ public class ButtomInMenu : MonoBehaviour
     [SerializeField] private GameObject playUI;
     [SerializeField] private GameObject buttomContinue;
     [SerializeField] private GameObject continueUI;
+    [SerializeField] private GameObject cerditUI;
     [SerializeField] private GameObject[] dayButtom;
     public void PlayButtom()
     {
         playUI.SetActive(true);
-    }
-    public void PlayBackButtom()
-    {
-        playUI.SetActive(false);
     }
     public void OnePlayerButtom()
     {
@@ -52,9 +49,11 @@ public class ButtomInMenu : MonoBehaviour
     {
         continueUI.SetActive(true);
     }
-    public void CloseContinueUI()
+    public void CloseUI()
     {
+        playUI.SetActive(false);
         continueUI.SetActive(false);
+        cerditUI.SetActive(false);
     }
     public void ExitButtom()
     {
@@ -66,7 +65,7 @@ public class ButtomInMenu : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.U))
             {
-                PlayerPrefs.SetInt("Day", 3);
+                PlayerPrefs.SetInt("Day", 4);
                 CheckDay();
             }
         }
@@ -101,19 +100,22 @@ public class ButtomInMenu : MonoBehaviour
         {
             playUI.SetActive(false);
         }
+        if (continueUI != null)
+        {
+            continueUI.SetActive(false);
+        }
+        if (cerditUI != null)
+        {
+            cerditUI.SetActive(false);
+        }
         foreach (var item in dayButtom)
         {
             item.SetActive(false);
         }
         CheckDay();
-        if (continueUI != null)
-        {
-            continueUI.SetActive(false);
-        }
     }
     private void Update()
     {
         InputCode();
-        Debug.Log(PlayerPrefs.GetInt("Day"));
     }
 }

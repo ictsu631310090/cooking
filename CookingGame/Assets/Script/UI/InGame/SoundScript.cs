@@ -16,6 +16,7 @@ public class SoundScript : MonoBehaviour
     public AudioClip buttonSound;
     [SerializeField] private AudioClip soundWin;
     [SerializeField] private AudioClip soundLose;
+    [SerializeField] private AudioClip soundCredit;
 
     [SerializeField] private GameObject settingUI;
     public void PlaySoundButton()
@@ -57,6 +58,14 @@ public class SoundScript : MonoBehaviour
     {
         PlaySound(soundLose);
     }
+    public void PlayerSoundBGCerdit()
+    {
+        soundBG.clip = soundCredit;
+    }
+    public void PlayerSoundMainmenu()
+    {
+        soundBG.clip = musicBG;
+    }
     private void Start()
     {
         if (PlayerPrefs.GetFloat("valueSoundBG") == 0)
@@ -80,8 +89,6 @@ public class SoundScript : MonoBehaviour
             soundBG.volume = PlayerPrefs.GetFloat("valueSoundBG");
         }
     }
-
-    // Update is called once per frame
     private void Update()
     {
         if (soundBGBar != null)

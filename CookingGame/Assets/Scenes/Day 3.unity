@@ -13826,6 +13826,10 @@ PrefabInstance:
       propertyPath: minNumOfNPC
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
+      propertyPath: maxSicknessLevel
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8482266052376219649, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: m_Name
       value: AllTrolley

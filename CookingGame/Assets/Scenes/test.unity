@@ -6045,6 +6045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AllArmy
       objectReference: {fileID: 0}
+    - target: {fileID: 2794793826531866800, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2794793826531866801, guid: c9fe507b3a7235d409ed537f44a9bfdb, type: 3}
       propertyPath: m_RootOrder
       value: 15

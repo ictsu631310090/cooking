@@ -12,6 +12,7 @@ public class TrolleySpawnScript : MonoBehaviour
     public static int numOfNPC;
     public int maxNumOfNPC;
     public int minNumOfNPC;
+    [SerializeField] private int maxSicknessLevel;
     public void SpawnPatient()
     {
         int typeBun = Random.Range(0, npcData.Length);
@@ -29,7 +30,8 @@ public class TrolleySpawnScript : MonoBehaviour
         npcSpawn.sicknessID = potionData.sicknessData[typeSickness].id;
         npcSpawn.allModelSickness = potionData.sicknessData[typeSickness].modleSickness;
 
-        int levelSickness = Random.Range(potionData.sicknessData[typeSickness].startSicknessLevel, 3);
+        int newSicknessLevel = maxSicknessLevel >= 4 ? 3 : maxSicknessLevel;
+        int levelSickness = Random.Range(potionData.sicknessData[typeSickness].startSicknessLevel, newSicknessLevel + 1);
         npcSpawn.sicknessLevel = levelSickness;
 
         npcSpawn.declineH = potionData.sicknessData[typeSickness].declineLife;
@@ -42,5 +44,5 @@ public class TrolleySpawnScript : MonoBehaviour
     {
         iDNPC = 0;
         numOfNPC = 0;
-    }
+}
 }

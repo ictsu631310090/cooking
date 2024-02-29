@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{FC74B7CA-8782-3C04-1EFD-F30056E41432}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -90,6 +91,7 @@
     <Compile Include="Assets\Script\Player\SpawnPlayer.cs" />
     <Compile Include="Assets\Script\NPC\NewSpawnNPCScript.cs" />
     <Compile Include="Assets\Script\Player\InputSystem\joy\PlayerInputActions_2.cs" />
+    <Compile Include="Assets\Script\UI\CreditScpit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

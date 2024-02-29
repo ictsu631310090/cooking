@@ -49,8 +49,4 @@ public class SpawnPlayer : MonoBehaviour
 #endif
         Spawn(UIManagerScript.numOfPlayer);
     }
-    private void Update()
-    {
-        
-    }
 }

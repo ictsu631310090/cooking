@@ -290,6 +290,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 8482266052885836132}
   maxNumOfNPC: 3
   minNumOfNPC: 5
+  maxSicknessLevel: 2
 --- !u!114 &742102643877699800
 MonoBehaviour:
   m_ObjectHideFlags: 0
