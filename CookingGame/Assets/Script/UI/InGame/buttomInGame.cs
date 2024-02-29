@@ -40,6 +40,10 @@ public class buttomInGame : MonoBehaviour
             PlayerPrefs.SetInt("Day", UIManagerScript.dayInGame);
         }
     }
+    public void DayPlusOne()
+    {
+        UIManagerScript.dayInGame++;
+    }
     public void ExitButtom()
     {
         Application.Quit();
