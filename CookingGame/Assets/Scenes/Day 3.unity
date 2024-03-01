@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1745976, g: 0.2183808, b: 0.30063644, a: 1}
+  m_IndirectSpecularColor: {r: 0.17459735, g: 0.21838063, b: 0.3006362, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12306,7 +12306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2814590486215182748, guid: e4c6bbc067b295c469f16a7c22420e4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.31
+      value: -1.85
       objectReference: {fileID: 0}
     - target: {fileID: 2814590486215182748, guid: e4c6bbc067b295c469f16a7c22420e4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13824,7 +13824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 742102643877699800, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: timeInOneRound
-      value: 17
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: potionData
@@ -13832,7 +13832,7 @@ PrefabInstance:
       objectReference: {fileID: 1527419108}
     - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: maxNumOfNPC
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4192008300614701881, guid: 3414f1f4766e7b24682f6110c6603754, type: 3}
       propertyPath: minNumOfNPC

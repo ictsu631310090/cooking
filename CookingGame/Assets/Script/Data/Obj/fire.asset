@@ -19,7 +19,7 @@ MonoBehaviour:
   timeToDeclineLife:
   - 1
   - 0.5
-  - 0.25
+  - 0.2
   modleSickness:
   - {fileID: 8428093454066892675, guid: 5965f99327337ad41bd1f03f7532e8a9, type: 3}
   - {fileID: 8428093454066892675, guid: 76d597c49df5bdf4c89dac7d07f5b959, type: 3}
