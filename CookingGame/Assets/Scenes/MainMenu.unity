@@ -4004,9 +4004,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c2bcf316a8c6c274290cb5d96c54329b, type: 3}
   - {fileID: 21300000, guid: 2896bd0bdd8a8ef41b2e867669b0af10, type: 3}
   - {fileID: 21300000, guid: e20923acbfb0a2b4f85c4e93cb1857b1, type: 3}
-  - {fileID: 21300000, guid: 62672d9f57c5a194bb965098f4f28ba2, type: 3}
+  - {fileID: 21300000, guid: 751263ee88d36334a9e9b2371643abe6, type: 3}
   - {fileID: 21300000, guid: 14aa62f5b38fb9243870579e9ae050a8, type: 3}
-  - {fileID: 21300000, guid: 3df8a174b65cb19488959de81345c51f, type: 3}
+  - {fileID: 21300000, guid: 776e47979d04abb4a8a0af606db41fac, type: 3}
   imageShow: {fileID: 162645627}
   imageAlive: 2
   speedSlide: 3

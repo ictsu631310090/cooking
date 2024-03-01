@@ -84,6 +84,7 @@ public class ButtomInMenu : MonoBehaviour
         if (buttomContinue != null)
         {
             buttomContinue.SetActive(false);
+            cerditUI.SetActive(false);
 
             if (PlayerPrefs.GetInt("Day") > 0)
             {
