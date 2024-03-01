@@ -3327,6 +3327,7 @@ MonoBehaviour:
   buttonSound: {fileID: 8300000, guid: aa5ed25d1512d9940a733c191a85c4d4, type: 3}
   soundWin: {fileID: 0}
   soundLose: {fileID: 0}
+  soundCredit: {fileID: 0}
   settingUI: {fileID: 0}
 --- !u!114 &460418930
 MonoBehaviour:
@@ -5303,7 +5304,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d3c19a2bd79fcc24ba94d38778eaa91b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
