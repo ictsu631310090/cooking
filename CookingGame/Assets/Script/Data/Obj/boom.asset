@@ -18,8 +18,8 @@ MonoBehaviour:
   declineLife: 640000006400000064000000
   timeToDeclineLife:
   - 40
-  - 28
-  - 22
+  - 30
+  - 24
   modleSickness:
   - {fileID: 1591874581504887796, guid: b2bef6d02ae2dc545b1890395512d539, type: 3}
   - {fileID: 1591874581504887796, guid: 6584c9617fc86b140a46308e5ca93ff6, type: 3}
