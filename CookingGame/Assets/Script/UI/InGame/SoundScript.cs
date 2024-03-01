@@ -90,6 +90,7 @@ public class SoundScript : MonoBehaviour
         {
             soundBG.volume = PlayerPrefs.GetFloat("valueSoundBG");
         }
+        soundBG.clip = musicBG;
     }
     private void Update()
     {
