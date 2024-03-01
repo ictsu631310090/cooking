@@ -1357,6 +1357,10 @@ PrefabInstance:
       propertyPath: whatGo
       value: 
       objectReference: {fileID: 637705504}
+    - target: {fileID: 6317273099079068179, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
+      propertyPath: cooldown
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6317273099206170202, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.6
@@ -2544,6 +2548,10 @@ PrefabInstance:
       propertyPath: whatGo
       value: 
       objectReference: {fileID: 1684863851}
+    - target: {fileID: 6317273099079068179, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
+      propertyPath: cooldown
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6317273099206170202, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.56
