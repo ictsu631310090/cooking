@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CreditScpit : MonoBehaviour
 {
+    [SerializeField] private bool loop;
     [SerializeField] private Sprite[] image = { };
     private int numimage;
     [SerializeField] private RawImage imageShow;
@@ -28,12 +29,16 @@ public class CreditScpit : MonoBehaviour
         if (fade <= 0)
         {
             imageAlive = imageAliveMax;
-            if (numimage != image.Length - 1)
-            {
-                numimage++;
-            }
+            numimage++;
             imageShow.texture = image[numimage].texture;
-            fading = true;
+            if (numimage != image.Length)
+            {
+                fading = true;
+            }
+            if (loop && numimage == image.Length)
+            {
+                numimage = 0;
+            }
         }
         else if (imageShow.color.a >= 1)
         {

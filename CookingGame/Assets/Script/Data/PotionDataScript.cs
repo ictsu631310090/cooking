@@ -24,10 +24,5 @@ public class PotionDataScript : MonoBehaviour
     private void Start()
     {
         sound = GetComponent<SoundPlayerScript>();
-        for (int i = 0; i < 10; i++)
-        {
-            Debug.Log("A : " + Random.Range(1, 3));
-            Debug.Log("B : " + Random.Range(1, 4));
-        }
     }
 }
