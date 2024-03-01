@@ -3875,7 +3875,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2117312826}
         m_TargetAssemblyTypeName: buttomInGame, Assembly-CSharp
-        m_MethodName: BackManuButtom
+        m_MethodName: NextDayButtom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
