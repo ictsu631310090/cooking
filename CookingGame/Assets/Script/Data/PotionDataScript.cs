@@ -8,6 +8,8 @@ public class PotionDataScript : MonoBehaviour
     public CreateSicknessScript[] sicknessData;
     public float timeDelayInput;
     public int buttonPressed;
+    public float cooldownDoor;
+    [HideInInspector] public float cooldownDoorMax;
     [HideInInspector] public SoundPlayerScript sound;
     public int FindNumOfSick(int id)
     {
@@ -24,5 +26,13 @@ public class PotionDataScript : MonoBehaviour
     private void Start()
     {
         sound = GetComponent<SoundPlayerScript>();
+        cooldownDoorMax = cooldownDoor;
+    }
+    private void Update()
+    {
+        if (cooldownDoor >= -1)
+        {
+            cooldownDoor -= Time.deltaTime;
+        }
     }
 }

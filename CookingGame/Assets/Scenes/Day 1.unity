@@ -4325,9 +4325,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2117312826}
-        m_TargetAssemblyTypeName: buttom, Assembly-CSharp
-        m_MethodName: NextDayButtom
+      - m_Target: {fileID: 2117312828}
+        m_TargetAssemblyTypeName: SoundScript, Assembly-CSharp
+        m_MethodName: PlaySoundButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4337,9 +4337,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2117312828}
-        m_TargetAssemblyTypeName: SoundScript, Assembly-CSharp
-        m_MethodName: PlaySoundButton
+      - m_Target: {fileID: 2117312829}
+        m_TargetAssemblyTypeName: ButtomInMenu, Assembly-CSharp
+        m_MethodName: GoToDayTwoButtom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14115,6 +14115,7 @@ GameObject:
   - component: {fileID: 2117312826}
   - component: {fileID: 2117312827}
   - component: {fileID: 2117312828}
+  - component: {fileID: 2117312829}
   m_Layer: 5
   m_Name: UIManagerScript
   m_TagString: Untagged
@@ -14220,6 +14221,23 @@ MonoBehaviour:
   soundLose: {fileID: 8300000, guid: 71efd8a6d3ee7c64b9431ae9304750b0, type: 3}
   soundCredit: {fileID: 0}
   settingUI: {fileID: 0}
+--- !u!114 &2117312829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117312823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ede0dcfd08904e9cbd990decb61ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playUI: {fileID: 0}
+  buttomContinue: {fileID: 0}
+  continueUI: {fileID: 0}
+  cerditUI: {fileID: 0}
+  dayButtom: []
 --- !u!1 &2118921739
 GameObject:
   m_ObjectHideFlags: 0

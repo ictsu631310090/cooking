@@ -35,14 +35,29 @@ public class ButtomInMenu : MonoBehaviour
     }
     public void GoToDayOneButtom()
     {
+        UIManagerScript.dayInGame = 1;
+        if (PlayerPrefs.GetInt("Day") < UIManagerScript.dayInGame)
+        {
+            PlayerPrefs.SetInt("Day", UIManagerScript.dayInGame);
+        }
         SceneManager.LoadScene(1);
     }
     public void GoToDayTwoButtom()
     {
+        UIManagerScript.dayInGame = 2;
+        if (PlayerPrefs.GetInt("Day") < UIManagerScript.dayInGame)
+        {
+            PlayerPrefs.SetInt("Day", UIManagerScript.dayInGame);
+        }
         SceneManager.LoadScene(2);
     }
     public void GoToDayThreeButtom()
     {
+        UIManagerScript.dayInGame = 3;
+        if (PlayerPrefs.GetInt("Day") < UIManagerScript.dayInGame)
+        {
+            PlayerPrefs.SetInt("Day", UIManagerScript.dayInGame);
+        }
         SceneManager.LoadScene(3);
     }
     public void OpenContinueUI()
@@ -71,6 +86,10 @@ public class ButtomInMenu : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Day", 4);
                 CheckDay();
+            }
+            else if (Input.GetKey(KeyCode.P))
+            {
+                GoToDayOneButtom();
             }
         }
         else if (Input.GetKey(KeyCode.Backspace))
@@ -122,5 +141,6 @@ public class ButtomInMenu : MonoBehaviour
     private void Update()
     {
         InputCode();
+        Debug.Log(PlayerPrefs.GetInt("Day"));
     }
 }

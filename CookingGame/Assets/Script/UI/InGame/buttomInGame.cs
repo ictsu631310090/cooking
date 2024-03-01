@@ -31,18 +31,10 @@ public class buttomInGame : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    public void NextDayButtom()
+    public void SetDayFour()
     {
-        UIManagerScript.dayInGame++;
-        SceneManager.LoadScene(UIManagerScript.dayInGame);
-        if (PlayerPrefs.GetInt("Day") <= UIManagerScript.dayInGame)
-        {
-            PlayerPrefs.SetInt("Day", UIManagerScript.dayInGame);
-        }
-    }
-    public void DayPlusOne()
-    {
-        UIManagerScript.dayInGame++;
+        UIManagerScript.dayInGame = 4;
+        PlayerPrefs.SetInt("Day", 4);
     }
     public void ExitButtom()
     {

@@ -5,18 +5,17 @@ using UnityEngine.UI;
 
 public class DoorScript : MonoBehaviour
 {
+    [SerializeField] private PotionDataScript doorCooldown;
     private ToolPlayerScript playerData;
-    [SerializeField] private float cooldown;
-    private float cooldownMax;
     [SerializeField] private Transform whatGo;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            if (cooldown <= 0)
+            if (doorCooldown.cooldownDoor <= 0)
             {
                 playerData = other.gameObject.GetComponent<ToolPlayerScript>();
-                cooldown = cooldownMax;
+                doorCooldown.cooldownDoor = doorCooldown.cooldownDoorMax;
             }
         }
     }
@@ -24,10 +23,10 @@ public class DoorScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            if (cooldown <= 0)
+            if (doorCooldown.cooldownDoor <= 0)
             {
                 playerData = other.gameObject.GetComponent<ToolPlayerScript>();
-                cooldown = cooldownMax;
+                doorCooldown.cooldownDoor = doorCooldown.cooldownDoorMax;
             }
         }
     }
@@ -50,11 +49,9 @@ public class DoorScript : MonoBehaviour
         {
             Debug.LogError("put data whatGo");
         }
-        cooldownMax = cooldown;
     }
     private void Update()
     {
-        cooldown -= Time.deltaTime;
         if (playerData != null)
         {
             MovePlayer();

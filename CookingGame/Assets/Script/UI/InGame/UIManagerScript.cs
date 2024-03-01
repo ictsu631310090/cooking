@@ -25,7 +25,6 @@ public class UIManagerScript : MonoBehaviour
     private SoundScript sound;
     private void Start()
     {
-        dayInGame = 1;
         treated = 0;
         dead = 0;
 
@@ -34,6 +33,10 @@ public class UIManagerScript : MonoBehaviour
         nextDatButtom.SetActive(false);
 
         sound = this.GetComponent<SoundScript>();
+        if (PlayerPrefs.GetInt("Day") != 0)
+        {
+            dayInGame = PlayerPrefs.GetInt("Day");
+        }
     }
     private void Update()
     {

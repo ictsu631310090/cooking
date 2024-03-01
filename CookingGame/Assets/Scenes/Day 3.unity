@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17459735, g: 0.21838063, b: 0.3006362, a: 1}
+  m_IndirectSpecularColor: {r: 0.1745976, g: 0.2183808, b: 0.30063644, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1361,6 +1361,10 @@ PrefabInstance:
       propertyPath: cooldown
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6317273099079068179, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
+      propertyPath: doorCooldown
+      value: 
+      objectReference: {fileID: 1527419108}
     - target: {fileID: 6317273099206170202, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.6
@@ -2552,6 +2556,10 @@ PrefabInstance:
       propertyPath: cooldown
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6317273099079068179, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
+      propertyPath: doorCooldown
+      value: 
+      objectReference: {fileID: 1527419108}
     - target: {fileID: 6317273099206170202, guid: 5dcdccf19d83ea14da0487aab7c28034, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.56
@@ -4225,7 +4233,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2117312826}
         m_TargetAssemblyTypeName: buttomInGame, Assembly-CSharp
-        m_MethodName: DayPlusOne
+        m_MethodName: SetDayFour
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11227,6 +11235,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 360474475}
     m_Modifications:
     - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
+      propertyPath: cooldownDoor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5154283208279506760, guid: 38435adab317cb24a8bbdcadfd3b55c5, type: 3}
       propertyPath: buttonPressed
       value: 2
       objectReference: {fileID: 0}
@@ -14160,6 +14172,7 @@ GameObject:
   - component: {fileID: 2117312826}
   - component: {fileID: 2117312827}
   - component: {fileID: 2117312828}
+  - component: {fileID: 2117312829}
   m_Layer: 5
   m_Name: UIManagerScript
   m_TagString: Untagged
@@ -14265,6 +14278,23 @@ MonoBehaviour:
   soundLose: {fileID: 8300000, guid: 71efd8a6d3ee7c64b9431ae9304750b0, type: 3}
   soundCredit: {fileID: 0}
   settingUI: {fileID: 0}
+--- !u!114 &2117312829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117312823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ede0dcfd08904e9cbd990decb61ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playUI: {fileID: 0}
+  buttomContinue: {fileID: 0}
+  continueUI: {fileID: 0}
+  cerditUI: {fileID: 0}
+  dayButtom: []
 --- !u!1001 &2118216398
 PrefabInstance:
   m_ObjectHideFlags: 0
