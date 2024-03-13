@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PotionDataScript : MonoBehaviour
 {
     public CreateSicknessScript[] sicknessData;
+    public int dieLimit;
     public float timeDelayInput;
     public int buttonPressed;
     public float cooldownDoor;
@@ -27,6 +28,7 @@ public class PotionDataScript : MonoBehaviour
     {
         sound = GetComponent<SoundPlayerScript>();
         cooldownDoorMax = cooldownDoor;
+        UIManagerScript.dieLimit = dieLimit;
     }
     private void Update()
     {

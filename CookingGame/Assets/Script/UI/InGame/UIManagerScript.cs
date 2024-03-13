@@ -12,6 +12,7 @@ public class UIManagerScript : MonoBehaviour
     public static int dayInGame = 1;
     public static int treated;
     public static int dead;
+    public static int dieLimit;
 
     [SerializeField] private TextMeshProUGUI treatedTextInGame;
     [SerializeField] private TextMeshProUGUI deadTextInGame;
@@ -41,10 +42,9 @@ public class UIManagerScript : MonoBehaviour
     private void Update()
     {
         treatedTextInGame.text = treated.ToString();
-        deadTextInGame.text = dead.ToString();
+        deadTextInGame.text = dead.ToString() + " / " + dieLimit;
         treatedText.text = "treated : " + treated;
-        deadText.text = "dead : " + dead;
-
+        deadText.text = "dead : " + dead + " / " + dieLimit;
         if (time != null)
         {
             if (ScoreManeger.score >= score.scorePass && time.endDay)

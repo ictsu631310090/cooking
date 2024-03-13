@@ -39,5 +39,11 @@ public class TimeUI : MonoBehaviour
         {
             haveHotTime = true;
         }
+        if (UIManagerScript.dieLimit <= UIManagerScript.dead)
+        {
+            endDay = true;
+            endgameGoj.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 }

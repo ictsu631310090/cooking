@@ -24,6 +24,7 @@ public class FishScript : MonoBehaviour
     {
         cooldownEat = timeEat;
         eatting = true;
+        UIManagerScript.dead++;
         Destroy(patient.gameObject, cooldownEat);
     }
     private void Start()

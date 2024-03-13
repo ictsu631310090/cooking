@@ -126,17 +126,17 @@ public class miniGame : MonoBehaviour
             potion.sprite = allPotionSprite[intArrow[0]];
             switch (intArrow[0])
             {
-                case 0:
-                    listDelay[0].transform.Translate(0, 1f * speedArrow * Time.deltaTime, 0);
-                    break;
-                case 1:
+                case 0://up
                     listDelay[0].transform.Translate(0, -1f * speedArrow * Time.deltaTime, 0);
                     break;
-                case 2:
-                    listDelay[0].transform.Translate(1f * speedArrow * Time.deltaTime, 0, 0);
+                case 1://down
+                    listDelay[0].transform.Translate(0, 1f * speedArrow * Time.deltaTime, 0);
                     break;
-                case 3:
+                case 2://right
                     listDelay[0].transform.Translate(-1f * speedArrow * Time.deltaTime, 0, 0);
+                    break;
+                case 3://left
+                    listDelay[0].transform.Translate(1f * speedArrow * Time.deltaTime, 0, 0);
                     break;
                 default:
                     break;
